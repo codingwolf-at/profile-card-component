@@ -20,6 +20,9 @@ body {
 
 .card-component {
     width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .card-header img {
@@ -30,12 +33,16 @@ body {
 .profile-image {
     border-radius: 50%;
     border: 5px solid white;
+    position: absolute;
+    top: 245px;
+    right: 590px;
 }
 
 .card-body {
     font-size: 18px;
     color: hsl(229, 23%, 23%);
     background-color: white;
+    height: 160px;
 }
 
 .attribution {
