@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center ;
 }
 
 .card-header img {
@@ -33,9 +34,8 @@ body {
 .profile-image {
     border-radius: 50%;
     border: 5px solid white;
-    position: absolute;
-    top: 245px;
-    right: 590px;
+    transform: translateY(-50px);
+    background-color: white;
 }
 
 .card-body {
@@ -43,6 +43,34 @@ body {
     color: hsl(229, 23%, 23%);
     background-color: white;
     height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.stats {
+    color: hsl(229, 23%, 23%);
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.stats-list {
+    list-style: none;
+}
+
+.list-item {
+    display: inline-block;   
+    padding: 1rem; 
+}
+
+.small-text {
+    font-size: small;
+    font-weight: 100;
 }
 
 .attribution {
